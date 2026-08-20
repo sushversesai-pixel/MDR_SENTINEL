@@ -4,6 +4,6 @@ import { viteSingleFile } from 'vite-plugin-singlefile'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/MDR_SENTINEL/',
+  base: './',
   plugins: [react(), viteSingleFile()],
 })
